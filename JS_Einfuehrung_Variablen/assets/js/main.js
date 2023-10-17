@@ -19,11 +19,10 @@ console.log(firstName + " " + lastName + " " + age);
 
 console.log("%c| JS_Intro-Level-1_6 |", "Color:tomato");
 
-// let x1 = 34;
-// let x1 = 67;
-// console.log(x1);
-//funktioniert nicht, es kommt eine Fehlermeldung (identifier has already been declared)
-// Variables defined with let cannot be Redeclared
+let x1 = 34;
+x1 = 67;
+console.log(x1);
+//reassignments immer ohne let/const schreiben. der 2. Wert zählt
 
 // const b = 34;
 // const b = 67;

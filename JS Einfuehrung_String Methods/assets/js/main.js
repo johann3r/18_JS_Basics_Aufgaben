@@ -1,7 +1,7 @@
-console.log("%c| String-Methods-Level-1_11", "color: tomato |");
+console.log("%c| String-Methods-Level-1_11 |", "color: tomato");
 
 let x = "Hello ";
-const y = "World";
+const y = "World <br>";
 
 const z = x + y;
 document.write(z);
@@ -11,7 +11,7 @@ const n = x + " " + y;
 document.write(n);
 console.log(n);
 
-x += "World";
+x += "World <br>";
 document.write(x);
 console.log(x);
 
