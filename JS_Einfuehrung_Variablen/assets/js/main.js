@@ -27,7 +27,7 @@ console.log(x1);
 // const b = 34;
 // const b = 67;
 // console.log(b);
-// funktioniert auch nicht
+// funktioniert nicht
 
 // Variables defined with const cannot be Redeclared
 
